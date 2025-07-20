@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact GoStreamlined</title>
+  <style>
+    body {
+      background-color: #f0f2f5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .form-container {
+      background: white;
+      padding: 50px 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .form-container h1 {
+      color: #0044cc;
+      margin-bottom: 30px;
+      font-size: 2.2em;
+    }
+
+    .form-group {
+      text-align: left;
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+      font-size: 0.95em;
+      color: #333;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 12px 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1em;
+      transition: border 0.3s ease;
+    }
+
+    .form-group input:focus {
+      border-color: #0044cc;
+      outline: none;
+    }
+
+    .submit-btn {
+      background-color: #0044cc;
+      color: white;
+      padding: 15px;
+      border: none;
+      border-radius: 8px;
+      width: 100%;
+      font-size: 1em;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    .submit-btn:hover {
+      background-color: #003399;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="form-container">
+  <h1>Contact Us</h1>
+  <!-- Replace "submit_form" with your Flask route or backend handler -->
+  <form action="/" method="post">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <button type="submit" class="submit-btn">Send Message</button>
+  </form>
+</div>
+
+</body>
+</html>
