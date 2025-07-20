@@ -31,34 +31,29 @@ email-auto-responder/
 git clone https://github.com/yourusername/email-auto-responder.git
 cd email-auto-responder
 
-markdown
-Copy code
+
 
 2. **Install dependencies**
 pip install flask
 
-markdown
-Copy code
+
 
 3. **Set environment variables**
 - Linux/Mac:
 export EMAIL_USER="your_email@example.com"
 export EMAIL_PASS="your_app_password"
 
-diff
-Copy code
+
 - Windows:
 set EMAIL_USER=your_email@example.com
 set EMAIL_PASS=your_app_password
 
-markdown
-Copy code
+
 
 4. **Run the app**
 python app.py
 
-yaml
-Copy code
+
 Open your browser at [http://127.0.0.1:5000](http://127.0.0.1:5000) to view the contact form.
 
 ---
@@ -90,3 +85,6 @@ For Gmail, use an App Password instead of your main password.
 ## 👨‍💻 Author
 
 Developed by Somtochukwu O 
+
+License
+This project is licensed for educational and portfolio purposes. Contact for commercial use.
